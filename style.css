@@ -1,0 +1,244 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: #333;
+    padding: 12px 20px;
+    border-radius: 15px;
+}
+
+.logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+    padding: 0;
+    color: white;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+section {
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section img{
+    margin: 0 auto;
+    max-width: 400px;
+    display: block;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+}
+
+.form-agregar-almacenes,
+.form-agregar-empleados,
+.form-agregar-materiales,
+.form-agregar-proveedores{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+}
+
+.form-agregar-almacenes label,
+.form-agregar-empleados label,
+.form-agregar-materiales label,
+.form-agregar-proveedor-label{
+    margin: 5px;
+    display: block;
+}
+
+.form-agregar-almacenes input[type="text"],
+.form-agregar-almacenes input[type="number"],
+.form-agregar-almacenes input[type="tel"],
+.form-agregar-empleados input[type="text"],
+.form-agregar-empleados input[type="number"],
+.form-agregar-empleados input[type="tel"],
+.form-agregar-materiales input[type="text"],
+.form-agregar-materiales input[type="number"]{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.form-agregar-almacenes button[type="submit"],
+.form-agregar-empleados button[type="submit"],
+.form-agregar-materiales button[type="submit"]{
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+  }
+
+.parrafoFinal{
+    width: 80%;
+    margin: 20px auto;
+  }
+
+.form-eliminar-almacenes,
+.form-eliminar-empleado,
+.form-eliminar-material,
+.form-eliminar-proveedor{
+    max-width: 500px;
+    margin: 20px auto;
+    padding:20px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+  }
+
+
+.form-eliminar-almacen-button,
+.form-eliminar-empleado-button,
+.form-eliminar-material-button,
+.form-eliminar-proveedor-button{
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.form-eliminar-almacen-label,
+.form-eliminar-empleado-label,
+.form-eliminar-material-label,
+.form-eliminar-proveedor-label{
+    margin: 5px;
+    display: block;
+}
+
+.form-eliminar-almacen-input,
+.form-eliminar-empleado-input,
+.form-eliminar-material-input,
+.form-eliminar-proveedor-input{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.thNombreTable{
+    padding: 5px;
+    border-bottom: 2px;
+    border-right: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+tr, th, td {
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.thCi{
+    padding: 5px 25px 5px 25px;
+}
+
+.table{
+    width: 100%;
+    padding:20px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+    border-collapse: collapse;
+}
+
+.form-modificar-almacenes,
+.form-modificar-empleado,
+.form-modificar-material,
+.form-modificar-proveedor{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+}
+
+.form-modificar-almacen-button,
+.form-modificar-empleado-button,
+.form-modificar-material-button,
+.form-modificar-proveedor-button{
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.form-modificar-almacen-label,
+.form-modificar-empleado-label,
+.form-modificar-material-label,
+.form-modificar-proveedor-label{
+    margin: 5px;
+    display: block;
+}
+
+.form-modificar-almacen-input,
+.form-modificar-empleado-input,
+.form-modificar-material-input,
+.form-modificar-proveedor-input{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.form-agregar-proovedor-button{
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.form-agregar-proovedor-input{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
